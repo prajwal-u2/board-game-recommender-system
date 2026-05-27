@@ -111,6 +111,8 @@ Best results per model (Precision@5 / NDCG@5):
 | Popularity Baseline | — | — | — |
 | Item VAE | 0.012 | 0.028 | 0.002 |
 
+![Algorithm Performance Comparison](algo_comparison.png)
+
 **Key findings:**
 - The GNN dramatically outperformed all other models, achieving nearly 2× the NDCG@5 of the next best.
 - Item-based autoencoders consistently outperformed their user-based counterparts, likely because the item space (21K) is much more manageable than the user space.
